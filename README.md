@@ -6,4 +6,15 @@ spans and ignore anything it can't parse. All timestamps are adjusted to count f
 optional offset. All IDs are remapped to make sure traces are unique even if the tool is run multiple times against the same 
 dataset. Also, namespace suffixes (as they appear in Istio traces) can be remapped.
 
-Work in progress.
+## Usage
+
+Installing:
+```
+go get github.com/prydin/zipkin-replay
+go build -o zreplay
+```
+
+Running:
+```
+./zreplay -file data/zipkin.out -target http://localhost:9411/api/v1/spans -namespace foobar
+```
