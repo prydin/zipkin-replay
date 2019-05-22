@@ -32,7 +32,7 @@ func (h* HTTPSender) Send(r *reader.Record) error {
 		return err
 	}
 	if resp.StatusCode > 299 {
-		return fmt.Errorf("server returned error code: %d %s", resp.StatusCode, resp.Status)
+		return fmt.Errorf("server returned error code: %s", resp.Status)
 	}
 	return nil
 }

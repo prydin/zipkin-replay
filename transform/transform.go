@@ -38,7 +38,9 @@ func (t *Transformer) Transform(span *model.SpanList, namespace string, offset t
 			}
 		}
 	}
-	t.transformNamespace(span, namespace)
+	if namespace != "" {
+		t.transformNamespace(span, namespace)
+	}
 	t.adjustTimestamps(span, offset)
 }
 
