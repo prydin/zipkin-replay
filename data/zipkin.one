@@ -1,0 +1,250 @@
+POST /api/v1/spans
+User-Agent: Go-http-client/1.1
+Content-Length: 755
+Content-Type: application/x-thrift
+Accept-Encoding: gzip
+
+
+
+ZE?ﱄD
+     stio.mixer.v1.Mixer/Check
+ 5??h3
+u˨M]??
+
+?jl??$
+      sr
+       ?
+
+        istio-mixer
+?jl???
+      ss
+       ?
+
+        istio-mixer
+
+                  	component
+
+                                 istio-mixer
+                                           jaeger.version
+
+                                                         Go-2.15.1dev
+                                                                   hostname
+                                                                           istio-policy-b75549dc6-wmvlm
+
+?jl??$
+
+x
+
+?'b(b8??
+ZE?ﱄD
+     stio.mixer.v1.Mixer/Check
+@?p?S?Jb
+=2?-`?F?
+
+?jl???
+      sr
+       ?
+
+        istio-mixer
+?jl??
+     ss
+      ?
+
+       istio-mixer
+
+                 	component
+
+                                 istio-mixer
+                                           jaeger.version
+
+                                                         Go-2.15.1dev
+                                                                   hostname
+                                                                           istio-policy-b75549dc6-wmvlm
+
+?jl???
+
+6
+
+?'b(b8??
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.7
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"async outbound|9091||istio-policy.istio-system.svc.cluster.local egress","id":"3d32bf2d60d14698","parentId":"d9d2f6b32585c58e","timestamp":1558465065881254,"duration":16592,"annotations":[{"timestamp":1558465065881254,"value":"cs","endpoint":{"ipv4":"172.16.3.7","port":0,"serviceName":"styling.default"}},{"timestamp":1558465065899428,"value":"cr","endpoint":{"ipv4":"172.16.3.7","port":0,"serviceName":"styling.default"}}],"binaryAnnotations":[{"key":"upstream_cluster","value":"outbound|9091||istio-policy.istio-system.svc.cluster.local"},{"key":"component","value":"proxy"},{"key":"grpc.status_code","value":"0"}]}]
+---
+POST /api/v1/spans
+User-Agent: Go-http-client/1.1
+Content-Length: 755
+Content-Type: application/x-thrift
+Accept-Encoding: gzip
+
+
+
+ZE?ﱄD
+     stio.mixer.v1.Mixer/Check
+V}???
+?n
+!???k
+
+?jl??}
+      sr
+       ?
+
+        istio-mixer
+?jl?ϴ
+     ss
+      ?
+
+       istio-mixer
+
+                 	component
+
+                                 istio-mixer
+                                           jaeger.version
+
+                                                         Go-2.15.1dev
+                                                                   hostname
+                                                                           istio-policy-b75549dc6-wmvlm
+
+?jl??}
+
+7
+
+?'b(b8??
+ZE?ﱄD
+     stio.mixer.v1.Mixer/Check
+Y??9׸?n
+?s#?????
+
+?jl?:N
+      sr
+       ?
+
+        istio-mixer
+?jl?:n
+      ss
+       ?
+
+        istio-mixer
+
+                  	component
+
+                                 istio-mixer
+                                           jaeger.version
+
+                                                         Go-2.15.1dev
+                                                                   hostname
+                                                                           istio-policy-b75549dc6-wmvlm
+
+?jl?:N
+
+
+
+?'b(b8??
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.5
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"async outbound|9091||istio-policy.istio-system.svc.cluster.local egress","id":"0775cba84d5d9ffe","parentId":"5a4519a0efb18444","timestamp":1558465065751432,"duration":6551,"annotations":[{"timestamp":1558465065751432,"value":"cs","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}},{"timestamp":1558465065757983,"value":"cr","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}}],"binaryAnnotations":[{"key":"upstream_cluster","value":"outbound|9091||istio-policy.istio-system.svc.cluster.local"},{"key":"component","value":"proxy"},{"key":"grpc.status_code","value":"0"}]}]
+---
+POST /api/v1/spans
+X-Forwarded-For: 172.16.3.9
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+Content-Type: application/json
+X-Envoy-Internal: true
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"async outbound|9091||istio-policy.istio-system.svc.cluster.local egress","id":"967323b4a4fafd8d","parentId":"b94a2dd8709c8b96","timestamp":1558465067693041,"duration":2952,"annotations":[{"timestamp":1558465067693041,"value":"cs","endpoint":{"ipv4":"172.16.3.9","port":0,"serviceName":"delivery.default"}},{"timestamp":1558465067696000,"value":"cr","endpoint":{"ipv4":"172.16.3.9","port":0,"serviceName":"delivery.default"}}],"binaryAnnotations":[{"key":"upstream_cluster","value":"outbound|9091||istio-policy.istio-system.svc.cluster.local"},{"key":"component","value":"proxy"},{"key":"grpc.status_code","value":"0"}]}]
+---
+POST /api/v1/spans
+User-Agent: Go-http-client/1.1
+Content-Length: 380
+Content-Type: application/x-thrift
+Accept-Encoding: gzip
+
+
+
+ZE?ﱄD
+     stio.mixer.v1.Mixer/Check
+?;j?-
+???jR<?V
+
+?jl԰?
+     sr
+      ?
+
+       istio-mixer
+?jlԱ4
+     ss
+      ?
+
+       istio-mixer
+
+                 	component
+
+                                 istio-mixer
+                                           jaeger.version
+
+                                                         Go-2.15.1dev
+                                                                   hostname
+                                                                           istio-policy-b75549dc6-wmvlm
+
+?jl԰?
+
+K
+
+?'b(b8??
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.13
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"async outbound|9091||istio-policy.istio-system.svc.cluster.local egress","id":"ccc0fc6a523c3f56","parentId":"c7ee4a32325f48b6","timestamp":1558465068969222,"duration":3009,"annotations":[{"timestamp":1558465068969222,"value":"cs","endpoint":{"ipv4":"172.16.3.13","port":0,"serviceName":"pricing.default"}},{"timestamp":1558465068972236,"value":"cr","endpoint":{"ipv4":"172.16.3.13","port":0,"serviceName":"pricing.default"}}],"binaryAnnotations":[{"key":"upstream_cluster","value":"outbound|9091||istio-policy.istio-system.svc.cluster.local"},{"key":"component","value":"proxy"},{"key":"grpc.status_code","value":"0"}]},{"traceId":"d82762286238aba25a4519a0efb18444","name":"pricing.default.svc.cluster.local:50053/*","id":"c7ee4a32325f48b6","parentId":"e57560a808e9704f","timestamp":1558465068966793,"duration":621641,"annotations":[{"timestamp":1558465068966793,"value":"cs","endpoint":{"ipv4":"172.16.3.13","port":0,"serviceName":"pricing.default"}},{"timestamp":1558465069589680,"value":"cr","endpoint":{"ipv4":"172.16.3.13","port":0,"serviceName":"pricing.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.13~pricing-cfbb597c-4clcl.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://pricing:50053/pricing/price/beachops12?quantity=20"},{"key":"http.method","value":"GET"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"0"},{"key":"upstream_cluster","value":"inbound|50053|http|pricing.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"4"},{"key":"response_flags","value":"-"}]}]
+---
+POST /api/v1/spans
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.8
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+Content-Type: application/json
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"async outbound|9091||istio-policy.istio-system.svc.cluster.local egress","id":"21db10b20e1db76b","parentId":"801f16397616553f","timestamp":1558465067670774,"duration":1578,"annotations":[{"timestamp":1558465067670774,"value":"cs","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}},{"timestamp":1558465067672349,"value":"cr","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}}],"binaryAnnotations":[{"key":"upstream_cluster","value":"outbound|9091||istio-policy.istio-system.svc.cluster.local"},{"key":"component","value":"proxy"},{"key":"grpc.status_code","value":"0"}]},{"traceId":"d82762286238aba25a4519a0efb18444","name":"delivery.default.svc.cluster.local:50052/*","id":"db569524fd2c648f","parentId":"801f16397616553f","timestamp":1558465067689655,"duration":1259321,"annotations":[{"timestamp":1558465067689655,"value":"cs","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}},{"timestamp":1558465068949049,"value":"cr","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.8~styling-54cd76d57-rqgtl.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://delivery:50052/delivery/dispatch/a7911637-5e93-486d-abb2-90df052dee58"},{"key":"http.method","value":"POST"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"1232"},{"key":"upstream_cluster","value":"outbound|50052||delivery.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"153"},{"key":"response_flags","value":"-"}]},{"traceId":"d82762286238aba25a4519a0efb18444","name":"styling.default.svc.cluster.local:50051/*","id":"801f16397616553f","parentId":"5a638346c03bc51c","timestamp":1558465067670462,"duration":1287126,"annotations":[{"timestamp":1558465067670462,"value":"cs","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}},{"timestamp":1558465068957681,"value":"cr","endpoint":{"ipv4":"172.16.3.8","port":0,"serviceName":"styling.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.8~styling-54cd76d57-rqgtl.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://styling:50051/style/beachops12/make?quantity=20"},{"key":"http.method","value":"GET"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"0"},{"key":"upstream_cluster","value":"inbound|50051|http|styling.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"153"},{"key":"response_flags","value":"-"}]}]
+---
+POST /api/v1/spans
+X-Forwarded-For: 172.16.3.7
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+Content-Type: application/json
+X-Envoy-Internal: true
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"styling.default.svc.cluster.local:50051/*","id":"d9d2f6b32585c58e","parentId":"5a638346c03bc51c","timestamp":1558465065773535,"duration":1860185,"annotations":[{"timestamp":1558465065773535,"value":"cs","endpoint":{"ipv4":"172.16.3.7","port":0,"serviceName":"styling.default"}},{"timestamp":1558465067650612,"value":"cr","endpoint":{"ipv4":"172.16.3.7","port":0,"serviceName":"styling.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.7~styling-54cd76d57-xswnf.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://styling:50051/style/beachops12/make?quantity=20"},{"key":"http.method","value":"GET"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"0"},{"key":"upstream_cluster","value":"inbound|50051|http|styling.default.svc.cluster.local"},{"key":"http.status_code","value":"503"},{"key":"response_size","value":"22"},{"key":"response_flags","value":"-"},{"key":"error","value":"true"}]}]
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.5
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"pricing.default.svc.cluster.local:50053/*","id":"e57560a808e9704f","parentId":"5a4519a0efb18444","timestamp":1558465068969978,"duration":624536,"annotations":[{"timestamp":1558465068969978,"value":"cs","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}},{"timestamp":1558465069594579,"value":"cr","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.5~shopping-86bbb7fd88-6wd4g.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://pricing:50053/pricing/price/beachops12?quantity=20"},{"key":"http.method","value":"GET"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"0"},{"key":"upstream_cluster","value":"outbound|50053||pricing.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"4"},{"key":"response_flags","value":"-"}]}]
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.9
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"delivery.default.svc.cluster.local:50052/*","id":"b94a2dd8709c8b96","parentId":"db569524fd2c648f","timestamp":1558465067687214,"duration":1257283,"annotations":[{"timestamp":1558465067687214,"value":"cs","endpoint":{"ipv4":"172.16.3.9","port":0,"serviceName":"delivery.default"}},{"timestamp":1558465068944650,"value":"cr","endpoint":{"ipv4":"172.16.3.9","port":0,"serviceName":"delivery.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.9~delivery-655ff7558b-sxd5k.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://delivery:50052/delivery/dispatch/a7911637-5e93-486d-abb2-90df052dee58"},{"key":"http.method","value":"POST"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"1232"},{"key":"upstream_cluster","value":"inbound|50052|http|delivery.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"153"},{"key":"response_flags","value":"-"}]}]
+---
+POST /api/v1/spans
+Content-Type: application/json
+X-Envoy-Internal: true
+X-Forwarded-For: 172.16.3.5
+X-Envoy-Expected-Rq-Timeout-Ms: 5000
+
+[{"traceId":"d82762286238aba25a4519a0efb18444","name":"styling.default.svc.cluster.local:50051/*","id":"5a638346c03bc51c","parentId":"5a4519a0efb18444","timestamp":1558465065772767,"duration":3186383,"annotations":[{"timestamp":1558465065772767,"value":"cs","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}},{"timestamp":1558465068959225,"value":"cr","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.5~shopping-86bbb7fd88-6wd4g.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://styling:50051/style/beachops12/make?quantity=20"},{"key":"http.method","value":"GET"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"Apache-HttpClient/4.5.2 (Java/1.8.0_191)"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"0"},{"key":"upstream_cluster","value":"outbound|50051||styling.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"153"},{"key":"response_flags","value":"-"}]},{"traceId":"d82762286238aba25a4519a0efb18444","name":"shopping.default.svc.cluster.local:50050/*","id":"5a4519a0efb18444","timestamp":1558465065751085,"annotations":[{"timestamp":1558465065751085,"value":"sr","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}},{"timestamp":1558465069603355,"value":"ss","endpoint":{"ipv4":"172.16.3.5","port":0,"serviceName":"shopping.default"}}],"binaryAnnotations":[{"key":"component","value":"proxy"},{"key":"node_id","value":"sidecar~172.16.3.5~shopping-86bbb7fd88-6wd4g.default~default.svc.cluster.local"},{"key":"guid:x-request-id","value":"f39e38f6-1d9a-9621-b61d-23769f962711"},{"key":"http.url","value":"http://10.198.41.116:50050/shop/order"},{"key":"http.method","value":"POST"},{"key":"downstream_cluster","value":"-"},{"key":"user_agent","value":"curl/7.54.0"},{"key":"http.protocol","value":"HTTP/1.1"},{"key":"request_size","value":"43"},{"key":"upstream_cluster","value":"inbound|50050|http|shopping.default.svc.cluster.local"},{"key":"http.status_code","value":"200"},{"key":"response_size","value":"155"},{"key":"response_flags","value":"-"}]}]
+---
