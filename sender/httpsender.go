@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/prydin/wf-replay/reader"
+	"github.com/prydin/zipkin-replay/reader"
 	"net/http"
 )
 
@@ -32,7 +32,7 @@ func (h* HTTPSender) Send(r *reader.Record) error {
 		return err
 	}
 	if resp.StatusCode > 299 {
-		return fmt.Errorf("server returned error code: %s", resp.Status)
+		return fmt.Errorf("realtime returned error code: %s", resp.Status)
 	}
 	return nil
 }

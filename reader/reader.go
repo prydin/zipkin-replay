@@ -3,7 +3,7 @@ package reader
 import (
 	"bufio"
 	"encoding/json"
-	"github.com/prydin/wf-replay/model"
+	"github.com/prydin/zipkin-replay/model"
 	"io"
 	"net/http"
 	"strings"

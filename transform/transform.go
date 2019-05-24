@@ -4,7 +4,7 @@ import (
 	"github.com/google/uuid"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/prometheus/common/log"
-	"github.com/prydin/wf-replay/model"
+	"github.com/prydin/zipkin-replay/model"
 	"strings"
 	"time"
 )

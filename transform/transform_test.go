@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/prydin/wf-replay/reader"
+	"github.com/prydin/zipkin-replay/reader"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"regexp"

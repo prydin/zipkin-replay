@@ -2,8 +2,8 @@ package sender
 
 import (
 	"bufio"
-	"github.com/prydin/wf-replay/reader"
-	"github.com/prydin/wf-replay/transform"
+	"github.com/prydin/zipkin-replay/reader"
+	"github.com/prydin/zipkin-replay/transform"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
